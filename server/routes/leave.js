@@ -196,8 +196,8 @@ const handleLeaveRequest = async (leaveRequest, priority, previousEmails = []) =
           </tr>
         </table>
         <p>
-          <a href="http://localhost:5000/api/leave/accept/${leaveRequest._id}?acceptingEmail={{userEmail}}&priority=${priority}" style="padding: 14px; background-color: green; color: white;font-size:18px; decoration:none;">Accept</a>
-          <a href="http://localhost:5000/api/leave/reject/${leaveRequest._id}?rejectingEmail={{userEmail}}" style="padding: 14px; background-color: red; color: white;font-size:18px; decoration:none;">Reject</a>
+          <a href="https://project-l5.onrender.com/api/leave/accept/${leaveRequest._id}?acceptingEmail={{userEmail}}&priority=${priority}" style="padding: 14px; background-color: green; color: white;font-size:18px; decoration:none;">Accept</a>
+          <a href="https://project-l5.onrender.com/api/leave/reject/${leaveRequest._id}?rejectingEmail={{userEmail}}" style="padding: 14px; background-color: red; color: white;font-size:18px; decoration:none;">Reject</a>
         </p>
       </div>
     </div>
